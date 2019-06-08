@@ -1,0 +1,22 @@
+//Jake Mayer cs135
+#include <stdio.h>
+
+int compute_area(int length, int width, int height);
+int compute_volume(int length, int width, int height);
+
+int main (void) {
+        int x,y,z;
+        do {
+                printf("Enter the dimensions of the square prism (l, w, h): ");
+                scanf("%d, %d, %d", &x,&y,&z);
+        } while(x < 0 || y < 0 || z < 0);
+        printf("The area of the prism is: %d\n", compute_area(x,y,z));
+        printf("The volume of the prism is: %d", compute_volume(x,y,z));
+        return 0;
+}
+int compute_area(int length, int width, int height){
+        return 2*(width*height + length*width + length*height);
+}
+int compute_volume(int length, int width, int height){
+  return length*width*height;
+}
