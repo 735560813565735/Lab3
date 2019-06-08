@@ -1,4 +1,4 @@
-//Jake Mayer cs135
+
 #include <stdio.h>
 void rotate_left(int* a, int* b, int* c);
 int main (void) {
