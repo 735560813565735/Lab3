@@ -1,4 +1,4 @@
-//Jake Mayer cs135
+
 #include <stdio.h>
 #include <math.h>
 int find_digit(int number, int digit);
