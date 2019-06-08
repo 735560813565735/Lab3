@@ -1,4 +1,4 @@
-//Jake Mayer cs135
+
 #include <stdio.h>
 #include <stdlib.h>
 int strcomp(char *s1, char *s2);
